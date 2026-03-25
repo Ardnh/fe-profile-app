@@ -55,48 +55,245 @@ const profile = {
             role: 'Frontend Developer',
             stack: ['Vue.js', 'TypeScript', 'PrimeVue', 'Pinia'],
             description: 'Wedding planning app with budgeting tools, vendor management, and payment gateway integration.',
+            project_info: [],
+            project_available_for_public: false,
+            status: 'published',
         },
         {
             name: 'Q Projects',
             role: 'Fullstack Developer',
-            stack: ['Kotlin', 'Golang', 'GitHub Actions'],
+            stack: ['Kotlin', 'Golang', 'CI/CD', 'Postgres'],
             description: 'Project management app with multi-project support, task tracking, and expense management with CI/CD to VPS.',
-        },
-        {
-            name: 'Catsu App',
-            role: 'Frontend Developer',
-            stack: ['React.js', 'Redux Toolkit'],
-            description: 'Entertainment web app for cat enthusiasts integrating The Cat API with modern state management.',
+            project_info: [
+                [
+                    {
+                        label: 'Url',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Open',
+                        icon: 'i-lucide-link',
+                        to: 'https://drive.google.com/file/d/1txbjof-_ejNE_VtO8G6ifjeSBejnIfBL/view?usp=sharing',
+                        target: '_blank'
+                    }
+                ],
+                [
+                    {
+                        label: 'Repository',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Backend',
+                        to: 'https://github.com/Ardnh/be-project-app',
+                        icon: 'i-lucide-code',
+                        target: '_blank'
+                    },
+                    {
+                        label: 'Mobile App',
+                        to: 'https://github.com/Ardnh/mobile-project-app',
+                        icon: 'i-lucide-code',
+                        target: '_blank'
+                    }
+                ]
+            ],
+            project_available_for_public: true,
+            status: 'published',
         },
         {
             name: 'Go-Todolist',
             role: 'Backend Developer',
             stack: ['Golang', 'JWT', 'MySQL'],
             description: 'RESTful API with full CRUD, JWT authentication, and a four-layer repository architecture.',
-        },
-        {
-            name: 'Majalengka E-Gov App',
-            role: 'Frontend Developer',
-            stack: ['Vue.js', 'Vuex', 'Bootstrap'],
-            description: 'Internal information system for Majalengka Regency Government.',
-        },
-        {
-            name: 'Sinarmas Dashboard',
-            role: 'UI Developer',
-            stack: ['Vue.js', 'Quasar'],
-            description: 'Interactive internal dashboard for Sinarmas Group with data visualization support.',
-        },
-        {
-            name: 'Travelio',
-            role: 'Frontend Developer',
-            stack: ['React', 'TypeScript', 'RTK', 'Tailwind CSS'],
-            description: 'Forum and article management app with auto-loading threads, CRUD, and commenting system.',
+            project_info: [
+                [
+                    {
+                        label: 'Repository',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Backend',
+                        to: 'https://github.com/Ardnh/be-todolist-app',
+                        icon: 'i-lucide-code',
+                        target: '_blank'
+                    }
+                ]
+            ],
+            project_available_for_public: true,
+            status: 'published',
         },
         {
             name: 'E-Quran',
             role: 'Frontend Developer',
             stack: ['Nuxt.js', 'TypeScript', 'PWA'],
             description: "Progressive Web App for reading Qur'an surahs and tafsir with offline caching strategies.",
+            project_info: [
+                [
+                    {
+                        label: 'Url',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Open',
+                        icon: 'i-lucide-link',
+                        to: 'https://e-quran-pwa.pages.dev',
+                        target: '_blank'
+                    }
+                ],
+                [
+                    {
+                        label: 'Repository',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Frontend',
+                        to: 'https://github.com/Ardnh/e-quran-pwa',
+                        icon: 'i-lucide-code',
+                        target: '_blank'
+                    }
+                ]
+            ],
+            project_available_for_public: true,
+            status: 'published',
+        },
+        {
+            name: 'Coworking Space Booking App',
+            role: 'Fullstack Developer',
+            stack: ['Golang', 'Kotlin'],
+            description: "Coworking space booking application with backend API and mobile app support.",
+            project_info: [
+                [
+                    {
+                        label: 'Url',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Open',
+                        icon: 'i-lucide-link',
+                        to: 'https://e-quran-pwa.pages.dev',
+                        target: '_blank'
+                    }
+                ],
+                [
+                    {
+                        label: 'Repository',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Backend',
+                        to: 'https://github.com/Ardnh/be-coworking-space-booking-app',
+                        icon: 'i-lucide-code',
+                        target: '_blank'
+                    },
+                    {
+                        label: 'Mobile App',
+                        to: 'https://github.com/Ardnh/mobile-coworking-space-booking-app',
+                        icon: 'i-lucide-code',
+                        target: '_blank'
+                    },
+                    {
+                        label: 'UI Design',
+                        to: 'https://www.figma.com/design/Odpq5Wh7MHj4hlmGqooAdo/Productivity-mobile-app?node-id=0-1&m=dev&t=5M8bKUkx3w4JJ06w-1',
+                        icon: 'i-lucide-code',
+                        target: '_blank'
+                    }
+                ]
+            ],
+            project_available_for_public: true,
+            status: 'Ongoing',
+        },
+        {
+            name: 'Travelio',
+            role: 'Frontend Developer',
+            stack: ['React', 'TypeScript', 'RTK', 'Tailwind CSS'],
+            description: 'Forum and article management app with auto-loading threads, CRUD, and commenting system.',
+            project_info: [
+                [
+                    {
+                        label: 'Url',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Open',
+                        icon: 'i-lucide-link',
+                        to: 'https://flowify-travelens.netlify.app/',
+                        target: '_blank'
+                    }
+                ]
+            ],
+            project_available_for_public: true,
+            status: 'published',
+        },
+        {
+            name: 'Catsu App',
+            role: 'Frontend Developer',
+            stack: ['React.js', 'Redux Toolkit'],
+            description: 'Entertainment web app for cat enthusiasts integrating The Cat API with modern state management.',
+            project_info: [
+                [
+                    {
+                        label: 'Url',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Open',
+                        icon: 'i-lucide-link',
+                        to: 'https://react-catsu.vercel.app/',
+                        target: '_blank'
+                    }
+                ],
+                [
+                    {
+                        label: 'Repository',
+                        type: 'label'
+                    }
+                ],
+                [
+                    {
+                        label: 'Frontend',
+                        to: 'https://github.com/Ardnh/react-catsu',
+                        icon: 'i-lucide-code',
+                        target: '_blank'
+                    }
+                ]
+            ],
+            project_available_for_public: true,
+            status: 'published',
+        },
+        {
+            name: 'Majalengka E-Gov App',
+            role: 'Frontend Developer',
+            stack: ['Vue.js', 'Vuex', 'Bootstrap'],
+            description: 'Internal information system for Majalengka Regency Government.',
+            project_info: [],
+            project_available_for_public: false,
+            status: 'published',
+        },
+        {
+            name: 'Sinarmas Dashboard',
+            role: 'UI Developer',
+            stack: ['Vue.js', 'Quasar'],
+            description: 'Interactive internal dashboard for Sinarmas Group with data visualization support.',
+            project_info: [],
+            project_available_for_public: false,
+            status: 'published',
         },
     ],
 
